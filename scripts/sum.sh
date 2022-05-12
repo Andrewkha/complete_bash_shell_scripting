@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-a=10
-b=20
+sum=$((10+5))
+((sum2=11+52))
 
-echo $((a+b))
+echo $sum
+echo $sum2
